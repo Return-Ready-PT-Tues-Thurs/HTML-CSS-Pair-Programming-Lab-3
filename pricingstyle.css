@@ -1,0 +1,15 @@
+
+
+ body {
+
+    background-color: white;
+    
+
+ }
+
+ .container-fluid {
+    display: flexbox;
+    flex-direction: auto;
+
+
+ }
