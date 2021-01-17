@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    grid-template-columns: minmax();
+  }
+
+  h1 {text-align: center;
+     margin-bottom: -100px; 
+     padding: 126px; 
+    }
+
+  p  {text-align: center 20px;
+         margin: 0; 
+         padding: 0;
+         position: absolute;
+         margin-bottom: 3100px;
+         }
+
+  div {text-align: center; align-self: start; 
+
+/* header { */
+    /* float: left; */
+    /* margin: 0 0 30px 0; */
+    /* padding: 5px 0 0 0; */
+    /* width: 100% */
+/* } */
+
+/* h1 { */
+    /* margin: 15px 0; */
+    /* font-size: 1.75em; */
+    /* font-weight: normal; */
+    /* line-height: 0.8em; */
+/* } */
+
+/* h2{ */
+    /* font-size: 0.75em; */
+    /* margin:-5px 0 0; */
+    /* font-weight: normal; */
+/* } */
+
+/* nav{ */
+    /* text-align: center; */
+    /* padding: 10px 0; */
+    /* margin: 20px 0 0; */
+/* } */
+
+/* nav ul { */
+    /* list-style: none; */
+    /* margin: 0 10px; */
+    /* padding: 0; */
+/* } */
+
+/* nav li { */
+    /* display: inline-block; */
+/* } */
+
+/* nav a { */
+    /* font-weight: 800; */
+    /* padding: 15px 10px; */
+/* } */
+
+column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+  }
+
+div {
+    margin-left:25 px;
+    word-wrap: normal;
+    }
+main{
+    background-color: rgb(211, 209, 209);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    
+}
+
+nav.navbar{
+    margin: center;
+}
+
+.navbar-nav nav {
+    font-size: large;
+    background-color: rgb(157, 157, 236);
+} 
+
+nav a {
+    padding: 10px 0;
+    margin: right;
+    
+}
+
+div {
+    margin-left:25 px;
+    word-wrap: normal;
+}
+
+.container {
+    flex-direction: column;
+    grid-row: 20px;
+    margin: right;
+}
+
+.navbar {
+    margin-top: 24px ;
+    
+}
+
+
+p {
+    float: center;
+    display: flex;
+    flex-direction: center;
+    text-align: center 20px; 
+    margin-bottom: 100px; 
+    padding: 0; 
+    position: absolute;
+}
+    
+.column-1 {
+    margin: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+      font-size: medium;
+  }
+
+  .img-boot {
+      width: 50px;
+}
+
+  clearfix:: after {
+      content: "";
+      display: table;
+  }
