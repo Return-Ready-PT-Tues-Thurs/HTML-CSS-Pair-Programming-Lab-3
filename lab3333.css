@@ -36,7 +36,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: rgb(94, 43, 187);
+  background-color: rgb(75, 235, 247);
 }
 
 .active {
@@ -53,12 +53,13 @@ li a:hover:not(.active) {
 
 .grid-item {
   color: black;
-  background-color: grey;
+  background-color: rgb(170, 170, 170);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 20px;
   text-align: center;
   text-emphasis-color: black;
+  grid-template-columns: auto auto auto;
 }
  
 .p {
@@ -68,21 +69,115 @@ li a:hover:not(.active) {
 
 c.column {
   float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; 
+  width: 5%;
+  padding: 5px;
+  height: 100px;
 }
 
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 footer {
-    font-size: medium;
+    padding: 17px;
+    font-size: 15px;
+    margin: left;
+    columns: center;
+    display: flex;  
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+}
+
+.footer > * {
+  flex: 1 100%;
+}
+
+.footer1 {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+  width: 50%;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 15px;
+  margin: left;
+}
+
+h4 {
+  float: left;
+  margin: center;
+}
+h5 {
+  margin: center;
+}
+
+h6 {
+  margin: center;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer2 {
+   display: flex;  
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    grid-template-columns: repeat(1);
+}
+
+.footer3 {
+  display: flex;  
+   flex-flow: row wrap;
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   grid-template-columns: repeat(1);
+}
+    
+.footer4 {
+  display: flex;  
+   flex-flow: row wrap;
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   grid-template-columns: repeat(1);
+}
+
+
+.footer2 > * {
+  flex: 1 50%;
+  margin-left: 20px;
+}
+
+.footer3 > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.box a {
+  color:rgb(75, 235, 247);
+}
+
+.footer-bottom{
+  text-align: center;
+  color: green;
+  padding-top: 50px;
 }
 
 clearfix:: after {
@@ -96,9 +191,11 @@ clearfix:: after {
 
 .column {
   float: left;
-  width: 25%;
-  padding: 10px;
-  height: 300px; 
+  width: 75px;
+  padding: 5px;
+  height: 350px; 
+  text-align: center;
+  
 }
 
 
